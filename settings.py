@@ -52,6 +52,10 @@ historico_schema = {
     'question_id':{
         'type': 'number',
         'required': True
+    },
+    'acerto':{
+        'type':'boolean',
+        'required': True
     }
 }
 
